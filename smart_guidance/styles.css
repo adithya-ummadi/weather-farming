@@ -8,7 +8,7 @@ html {
 }
 
 header {
-  background-color: #4caf50;
+  background-color: #00615a;
   color: white;
   padding: 20px;
   text-align: center;
@@ -29,7 +29,6 @@ header {
   }
 
 }
-
 
 
 main {
@@ -64,7 +63,7 @@ td {
 }
 
 th {
-  background-color: #4caf50;
+  background-color: #00615a;
   color: white;
 }
 
@@ -110,7 +109,6 @@ tr:nth-child(even) {
   color: #000000;
 }
 
-#smart-disease-detection,
 #about-project {
   background-color: white;
   margin-top: 20px;
@@ -120,26 +118,6 @@ tr:nth-child(even) {
   padding: 20px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
-
-
-#smart-disease-detection ol li {
-  counter-increment: list-counter;
-  margin-bottom: 10px;
-}
-
-#smart-disease-detection h2,
-#about-project h2 {
-  color: #000000;
-}
-
-#smart-disease-detection ol,
-#smart-disease-detection ul,
-#about-project ul {
-  list-style-position: inside;
-  padding-left: 0;
-}
-
-/* Base styles - already provided above, apply for all devices */
 
 /* Mobile-specific styles */
 @media screen and (max-width: 768px) {
@@ -191,7 +169,7 @@ tr:nth-child(even) {
   }
 
   th {
-    background-color: #4caf50;
+    background-color: #00615a;
     color: white;
   }
 
@@ -200,7 +178,7 @@ tr:nth-child(even) {
   }
 
   button {
-    background-color: #4caf50;
+    background-color: #00615a;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -247,7 +225,7 @@ tr:nth-child(even) {
   }
 
   th {
-    background-color: #4caf50;
+    background-color: #00615a;
     color: white;
   }
 
@@ -290,29 +268,6 @@ button {
   font-size: 14px;
   /* Smaller font size for button text */
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .hero {
   text-align: center;
@@ -357,7 +312,7 @@ p {
 }
 
 .dropbtn {
-  background-color: #2ecc71;
+  background-color: #00615a;
   color: white;
   padding: 12px 20px;
   font-size: 20px;
@@ -457,8 +412,6 @@ p {
   /* Hidden by default */
   margin-top: 20px;
 }
-
-
 
 .footer {
   padding: 1rem;

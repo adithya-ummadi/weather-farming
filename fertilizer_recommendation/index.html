@@ -21,8 +21,8 @@
 
     <div class="main">
         <div class="container">
-            <h2>Fertilizer Recommendation System</h2>
-            <p>Enter soil parameters and crop type to get fertilizer recommendations</p>
+            <h2>Fertilizer Finder </h2>
+            <p>Enter required values and crop to get fertilizer</p>
 
             <form id="fertilizerForm" class="input-form">
                 <div class="form-group">
@@ -43,21 +43,21 @@
                 </div>
 
                 <div class="form-group">
-                    <label for="nitrogen">Current Nitrogen (N) Level:</label>
+                    <label for="nitrogen">Current Nitrogen Level:</label>
                     <input type="number" id="nitrogen" name="nitrogen" required step="0.01" min="0" max="140">
                 </div>
 
                 <div class="form-group">
-                    <label for="phosphorus">Current Phosphorus (P) Level:</label>
+                    <label for="phosphorus">Current Phosphorus Level:</label>
                     <input type="number" id="phosphorus" name="phosphorus" required step="0.01" min="0" max="140">
                 </div>
 
                 <div class="form-group">
-                    <label for="potassium">Current Potassium (K) Level:</label>
+                    <label for="potassium">Current Potassium  Level:</label>
                     <input type="number" id="potassium" name="potassium" required step="0.01" min="0" max="200">
                 </div>
 
-                <button type="submit" class="submit-btn">Get Fertilizer Recommendation</button>
+                <button type="submit" class="submit-btn">Get Fertilizer </button>
             </form>
 
             <div id="result-container" class="result-container">
@@ -76,7 +76,6 @@
                                 </tr>
                             </thead>
                             <tbody>
-                                <!-- Table data will be populated by JavaScript -->
                             </tbody>
                         </table>
                     </div>

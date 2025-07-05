@@ -49,5 +49,3 @@ let weather = {
       }
     });
   
-  weather.fetchWeather("Bhopal");
-  
