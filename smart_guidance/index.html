@@ -1,65 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Shamrock AGRICULTURE Guide</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-
-  <body>
-    <div class="container">
-      <header class="hero">
-        <h1>SMART AGRICULTURE GUIDE</h1>
-        <div class="dropdown">
-          <button class="dropbtn" onclick="toggleDropdown()">
-            Select Crop
-          </button>
-          <div id="dropdownContent" class="dropdown-content">
-            <a href="#" onclick="showCrop('apple')">Apple</a>
-            <a href="#" onclick="showCrop('banana')">Banana</a>
-            <a href="#" onclick="showCrop('coconut')">Coconut</a>
-            <a href="#" onclick="showCrop('coffee')">Coffee</a>
-            <a href="#" onclick="showCrop('cotton')">Cotton</a>
-            <a href="#" onclick="showCrop('grapes')">Grapes</a>
-            <a href="#" onclick="showCrop('maize')">Maize</a>
-            <a href="#" onclick="showCrop('mango')">Mango</a>
-            <a href="#" onclick="showCrop('orange')">Orange</a>
-            <a href="#" onclick="showCrop('rice')">Rice</a>
-          </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shamrock Agriculture Guide</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <!-- Hero Section -->
+    <header class="hero">
+      <h1>Smart Agriculture Guide</h1>
+      <div class="dropdown">
+        <button class="dropbtn" onclick="toggleDropdown()">Select Crop</button>
+        <div id="dropdownContent" class="dropdown-content">
+          <a href="#" onclick="showCrop('apple')">Apple</a>
+          <a href="#" onclick="showCrop('banana')">Banana</a>
+          <a href="#" onclick="showCrop('coconut')">Coconut</a>
+          <a href="#" onclick="showCrop('coffee')">Coffee</a>
+          <a href="#" onclick="showCrop('cotton')">Cotton</a>
+          <a href="#" onclick="showCrop('grapes')">Grapes</a>
+          <a href="#" onclick="showCrop('maize')">Maize</a>
+          <a href="#" onclick="showCrop('mango')">Mango</a>
+          <a href="#" onclick="showCrop('orange')">Orange</a>
+          <a href="#" onclick="showCrop('rice')">Rice</a>
         </div>
-      </header>
-      <div id="cropInfo" class="crop-info">
-        <!-- Crop information will be displayed here -->
       </div>
-    </div>
-
-    <header>
-      <h1>SMART CROP RECOMMENDATIONS</h1>
     </header>
-    <main>
-      <section id="crops-table">
-        <h3>Optimal Conditions</h3>
+
+    <!-- Crop Info Section -->
+    <section id="cropInfo" class="crop-info">
+      <!-- Dynamically filled by JS -->
+    </section>
+
+    <!-- Recommendation Table Section -->
+    <section class="recommendation-section">
+      <h2>Smart Crop Recommendations</h2>
+      <h3>Optimal Conditions</h3>
+      <div class="table-wrapper">
         <table id="crop-table">
           <thead>
             <tr>
               <th>Crop</th>
-              <th>Nitrogen</th>
-              <th>Phosphorus</th>
-              <th>Potassium</th>
-              <th>Temperature (°C)</th>
+              <th>Nitrogen (N)</th>
+              <th>Phosphorus (P)</th>
+              <th>Potassium (K)</th>
+              <th>Temp (°C)</th>
               <th>Humidity (%)</th>
               <th>pH</th>
               <th>Rainfall (mm)</th>
             </tr>
           </thead>
           <tbody>
+            <!-- Dynamically filled -->
           </tbody>
         </table>
-      </section>
-    </main>
+      </div>
+    </section>
+  </div>
 
-
-    <script src="script.js"></script>
-  </body>
+  <script src="script.js"></script>
+</body>
 </html>
