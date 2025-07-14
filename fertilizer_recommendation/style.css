@@ -1,6 +1,6 @@
 :root {
-    --primary: #00615a;
-    --primary-dark: #05576e;
+    --primary: #4CAF50;
+    --primary-dark: #45a049;
     --text-dark: #333;
     --text-light: #666;
     --bg-light: #f4f4f4;
@@ -315,7 +315,7 @@ body {
 }
 
 .reference-table h4 {
-    color: #30a217;
+    color: #1565c0;
     margin-bottom: 1rem;
     font-size: 1.2rem;
     text-align: center;
